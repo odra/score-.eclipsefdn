@@ -1195,6 +1195,7 @@ orgs.newOrg('automotive.score', 'eclipse-score') {
       description: 'Repository for the AutoSD Platform and associated Tooling',
       gh_pages_build_type: "workflow",
       template_repository: "eclipse-score/module_template",
+      homepage: "https://eclipse-score.github.io/os_autosd",
     },
 
     newScoreRepo('bazel-tools-python') {
